@@ -1,5 +1,4 @@
 #import libraries
-from collections import namedtuple
 import csv
 import os
 
