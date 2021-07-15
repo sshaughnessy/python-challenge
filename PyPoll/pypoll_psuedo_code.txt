@@ -2,9 +2,13 @@ import necessary libraries
     os, csv
 
 count total votes
-   
-count how many unique candidates
+   define a counter variable as =0
+   each row add +1 to counter 
 
+count how many unique candidates
+    create empty list variable
+    loop through data if row[index] is not in the list, append to list
+    
 calculate % of total votes won by each candidate
 
 calculate # of votes won by each candidate
