@@ -1,0 +1,23 @@
+import necessary libraries - 
+    os, csv
+
+count number of months in the data set - 
+    len function
+
+net total amount of profit and loss for the historical period - 
+    sort the file by months
+    store first month p/l in a variable
+    store last month p/l in a variable
+    last month - first month = historical delta
+
+calculate MoM change for the entire period and then calculate the average - 
+    use a loop
+    second row - first row = monthly change [store in list]
+    average all values in [list] once loop has completed
+
+calculate greatest increase/decrease in profit  
+    min of [list] - print $ delta and month
+    max of [list] - print $ delta and month
+
+print results to terminal
+export results to .txt file in Resource file
