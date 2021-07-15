@@ -1,0 +1,13 @@
+import necessary libraries
+    os, csv
+
+count total votes
+   
+count how many unique candidates
+
+calculate % of total votes won by each candidate
+
+calculate # of votes won by each candidate
+
+output winner based on largest # of votes
+
