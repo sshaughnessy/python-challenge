@@ -2,16 +2,18 @@ import necessary libraries
     os, csv
 
 count total votes
-   define a counter variable as =0
-   each row add +1 to counter 
 
 count how many unique candidates
-    create empty list variable
-    loop through data if row[index] is not in the list, append to list
-    
+
 calculate % of total votes won by each candidate
 
 calculate # of votes won by each candidate
 
 output winner based on largest # of votes
 
+loop through file, add name to list
+len list = total votes
+create dictionary
+for name in list add 1
+max of dictionary = winner
+% = names/total
