@@ -11,8 +11,3 @@ calculate # of votes won by each candidate
 
 output winner based on largest # of votes
 
-loop through file
-create a counter to add 1 for each line
-add name + counter to a dictionary
-loop through dictionary to calc % of total
-candidate with highest % in dictionary wins
